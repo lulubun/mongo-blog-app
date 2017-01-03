@@ -47,4 +47,4 @@ this.posts.push(post);
 };
 */
 // Export the Mongoose model
-module.exports = mongoose.model('BlogPost', BlogPost);
+module.exports = mongoose.model('BlogPost', PostSchema);
